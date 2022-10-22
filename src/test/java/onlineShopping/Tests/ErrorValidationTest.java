@@ -16,7 +16,7 @@ public class ErrorValidationTest extends BaseTest {
 
 	// public static void main(String[] args) {
 
-	@Test
+	@Test (groups= {"ErrorHandling"})
 
 	public void loginpageerrorMessage() throws IOException, InterruptedException {
 		

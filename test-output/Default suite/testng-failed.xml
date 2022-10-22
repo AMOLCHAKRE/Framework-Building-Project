@@ -5,6 +5,7 @@
     <classes>
       <class name="onlineShopping.Tests.LoginOrderTest">
         <methods>
+          <include name="submitorder" invocation-numbers="1"/>
           <include name="teardown"/>
           <include name="OrderHistoryTest"/>
           <include name="launchingbrowser"/>
